@@ -74,11 +74,12 @@ a:hover, a:visited, a:active {
 }
 
 .col-sm-9 {
-  border-left:3px solid #1E2124;;
+  border-left:3px solid #1E2124;
 }
 
 .col-sm-3 {
-  border-right:0px solid #1E2124;;
+  border-right:0px solid #1E2124;
+  padding-bottom:50px;
 }
 
 .panel-footer {

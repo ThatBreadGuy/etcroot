@@ -1,0 +1,12 @@
+{
+  "Name": "etcroot.pw files",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestURL": "https://etcroot.pw/api/files",
+  "FileFormName": "fdata",
+  "Arguments": {
+    "key": "etcroot"
+  },
+  "Headers": {
+    "url": "$input$"
+  }
+}
