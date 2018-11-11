@@ -1,0 +1,102 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color:#fff;
+  background:#26282B;
+}
+
+.btn-span {
+  background:#1E2124 !important;
+  color:#858585 !important;
+  text-decoration:none !important;
+  transition:.3s !important;
+  padding:9px;
+}
+
+.mark {
+  background:#1A1D1F;
+  border-radius:2px;
+  color:#858585;
+  font-size:12px !important;
+  cursor:default;
+  padding:6px;
+}
+
+a {
+  color:#858585 !important;
+  transition:.3s;
+}
+
+a:hover, a:visited, a:active {
+  color:#7289DA;
+  text-decoration:none;
+  transition:.3s;
+}
+
+.btn {
+  background:#1E2124 !important;
+  color:#858585 !important;
+  text-decoration:none !important;
+  transition:.3s !important;
+}
+
+
+.btn:hover {
+  background:#7289DA !important;
+  color:#FFFFFF !important;
+  text-decoration:none !important;
+  transition:.3s !important;
+}
+
+.jumbotron {
+  color:#FFFFFF;
+  height:auto;
+  background: url(https://i.imgur.com/ZcJB6LS.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom:8px solid #1E2124;
+}
+
+.panel-default {
+  background:#23272A !important;
+  border:3px solid #1E2124;
+  color:#858585 !important;
+  text-align:left !important;
+}
+
+.panel-heading {
+  background:#1E2124 !important;
+  text-transform:uppercase !important;
+  color:#858585 !important;
+  border:0px !important;
+  text-align:left !important;
+}
+
+.col-sm-9 {
+  border-left:3px solid #1E2124;;
+}
+
+.col-sm-3 {
+  border-right:0px solid #1E2124;;
+}
+
+.panel-footer {
+  background:#1E2124 !important;
+  text-align:left !important;
+  border:0px;
+  color:#858585;
+}
+
+h2 {
+  font-weight:700;
+}
+
+h1 {
+  font-weight:700;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.title {
+  padding-left:70px;
+}
