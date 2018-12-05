@@ -1,2 +1,2 @@
 # etcroot
-Source for my site
+https://etcroot.pw/
