@@ -1,0 +1,83 @@
+body, html {
+  font-family: 'Ubuntu Mono', monospace;
+  background-color:#1C1C1C;
+  color:#fff;
+  margin:0;
+  height: 100%;
+}
+
+
+a, a:hover, a:active, a:visited {
+  color:#fff !important;
+  text-decoration:none;
+}
+
+.btn-dank {
+  background: rgba(41,41,41,0.8);
+}
+
+.card-img-overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+h1 {
+  font-size:60px;
+}
+
+.card {
+  background-color:#292929 !important;
+}
+
+.container {
+  margin-top:20px;
+  margin-bottom:60px;
+}
+
+.lolimg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.imgur.com/Pp8fyX1.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-bottom:5px solid #eddce4;
+}
+
+.loltext {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
